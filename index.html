@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+<body>
+
+  <div class="calculadora">
+
+    <div class="visor">
+      <span class="visor-expressao"></span>
+      <span class="visor-valor">0</span>
+    </div>
+
+    <div class="teclado">
+      <button class="btn-util" data-action="clear">AC</button>
+      <button class="btn-util" data-action="sign">+/−</button>
+      <button class="btn-util" data-action="percent">%</button>
+      <button class="btn-op"   data-op="/">÷</button>
+
+      <button class="btn-num" data-num="7">7</button>
+      <button class="btn-num" data-num="8">8</button>
+      <button class="btn-num" data-num="9">9</button>
+      <button class="btn-op"  data-op="*">×</button>
+
+      <button class="btn-num" data-num="4">4</button>
+      <button class="btn-num" data-num="5">5</button>
+      <button class="btn-num" data-num="6">6</button>
+      <button class="btn-op"  data-op="-">−</button>
+
+      <button class="btn-num" data-num="1">1</button>
+      <button class="btn-num" data-num="2">2</button>
+      <button class="btn-num" data-num="3">3</button>
+      <button class="btn-op"  data-op="+">+</button>
+
+      <button class="btn-num btn-zero" data-num="0">0</button>
+      <button class="btn-num" data-num=".">.</button>
+      <button class="btn-equal" data-action="equal">=</button>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
